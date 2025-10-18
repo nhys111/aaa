@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 页面背景颜色 */
+body {
+  font-size: 16px;
+  background-color: #d0dada;
+  color: #606268;
+}
+
+/* 页面两侧颜色 */
+.juzhongbox {
+  background-color: #ebf2ed;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 1280px;
+  margin: 60px auto;
+  box-sizing: border-box;
+}
+
+.left {
+  padding: 20px;
+  float: left;
+  width: 280px;
+
+}
+/* 页面中间颜色 */
+.content {
+  background-color: #ffffff;
+  float: left;
+  width: 640px;
+}
+
+.right {
+  padding: 20px;
+  float: left;
+  width: 280px;
+}
+
+.tx {
+  margin: 0 auto;
+  width: 200px;
+}
+
+/* 头像边框 */
+.tx img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  vertical-align: middle;
+
+}
+/* 头像背景-导航栏背景 */
+.y1 span,.fdhl .span {
+  background-color: #22bb6d;
+}
+/* 欢迎光临颜色 */
+.li a,h3{
+  color: #069d53;
+}
+h3 {
+  font-size: 24px;
+
+}
+
+.y1 span {
+  text-align: center;
+  padding: 5px 0;
+  display: block;
+  border-radius: 4px;
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.content .s {
+  border: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #606268;
+}
+
+.left p {
+  margin-top: 15px;
+  text-indent: 2em;
+  line-height: 25px;
+}
+
+.dhl {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.dhl li {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+/* 导航栏背景 */
+.li ,.ww .span {
+  background-color: #c6dbce;
+}
+
+.li a {
+  font-weight: 800;
+}
+
+.banner {
+  /* height: 200px; */
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.input {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #e5ede8;
+}
+
+.input input {
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 30px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+
+
+.fdhl {
+  padding: 30px;
+  background-color: #f6faf8;
+  border-bottom: 1px solid #ccc;
+}
+
+.fdhl .span {
+
+  padding: 5px 10px;
+  margin: 0 4px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+
+}
+/* 中间导航背景 */
+.fdhl span {
+  background-color: #d0d0d0;
+  padding: 5px 10px;
+  margin: 0 4px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.gushi {
+  padding-bottom: 10px;
+  overflow: hidden;
+  width: 580px;
+  margin: 15px auto 0 auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.gushi img {
+  float: left;
+  /* width: 150px; */
+  height: 150px;
+  margin-right: 15px;
+}
+
+.dbox {
+  /* width: 415px; */
+  overflow: hidden;
+  /* float: left; */
+}
+
+.dbox h4 {
+  margin: 5px;
+}
+
+.gushi .d {
+  padding-left: 75px;
+  display: inline-block;
+  /* width: 300px; */
+  font-size: 14px;
+  display: flex;
+  margin: 5px;
+  justify-content: space-around;
+}
+
+.gushi p {
+  line-height: 23px;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.zqfx img {
+  height: 90px;
+  width: 90px;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.zqfx h4,
+.right h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #9098a7;
+  text-align: center;
+  font-weight: 600;
+}
+
+.right img {
+  border-radius: 10px;
+  width: 100%;
+  /* height: 430px; */
+  margin-bottom: 15px;
+}
+
+.pjpl {
+  display: flex;
+  margin-top: 20px;
+}
+
+.pjpl img {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.h {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h span {
+  font-size: 13px;
+
+
+}
+
+.ww {
+  width: 400px;
+}
+
+.ww .span {
+  padding: 4px 4px 4px 15px;
+  display: block;
+  margin-top: 1px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.dibu {
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ebf2ed;
+}
+
+.xc {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.yx ul {
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.xc img {
+  width: 196px;
+  /* height: 196px; */
+}
+
+.yx li {
+  float: left;
+  width: 290px;
+}
+
+.yx li img {
+  width: 100%;
+  height: 200px;
+}
+
+.yx li p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.guanyuwo {
+  padding: 20px;
+}
+
+.guanyuwo img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.guanyuwo p {
+  line-height: 25px;
+  text-indent: 2em;
+}
+
+.lxwm {
+  height: 600px;
+  padding: 20px;
+}
+
+.lxwm table {
+  margin: 100px  auto 0 auto;
+}
+
+.lxwm table input {
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 30px;
+}
+
+textarea {
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 200px;
+  box-sizing: border-box;
+}
